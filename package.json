@@ -6,10 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galihjuansaputra/belajar-tailwind.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/galihjuansaputra/belajar-tailwind/issues"
+  },
+  "homepage": "https://github.com/galihjuansaputra/belajar-tailwind#readme",
+  "dependencies": {
     "tailwindcss": "^3.0.23"
   }
 }
