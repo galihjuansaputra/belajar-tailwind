@@ -1,24 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Belajar Tailwindcss</title>
-    <style>*{border: 1px solid blue}</style>
+    <style>*{border: solid blue 1px;}</style>
 </head>
+
 <body>
 
     <h1>Belajar Tailwindcss</h1>
 
     <section>
         <h2>Spacing</h2>
-        <div class="m-5 text-center">Margin</div> 
-        <div class="p-5 text-center">Padding</div>   
+        <div class="m-5 text-center">Margin</div>
+        <div class="p-5 text-center">Padding</div>
     </section>
 
+    <div class="container mx-auto mt-12">
+
+        <h1 class="text-blue-700 font-bold "> Hello Tailwindcss</h1>
+        <button class="bg-blue-500 hover:bg-blue-700 transition duration-100 text-white py-2 px-8 rounded">Click
+            Here!</button>
+
+    </div>
+
+
     
+    <div class="p-20">
+        <div class="group inline-block relative ">
+            <button class="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
+                <span class="mr-1">Dropdown</span>
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+            </button>
+            <ul class="absolute hidden text-gray-700 pt-1 group-hover:block">
+                <li class="">
+                    <a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                        href="#">One</a>
+                </li>
+                <li class="">
+                    <a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a>
+                </li>
+                <li class="">
+                    <a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three
+                        is the magic number</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+<!-- wrapper -->
+<section class="m-2 font-sans leading-normal flex justify-center">
+
+    <!-- card container -->
+    <div class="max-w-lg shadow-lg rounded overflow-hidden m-4 sm:flex">
+      <div class="h-48 sm:h-auto sm:w-48 md:w-64 flex-none bg-cover bg-center rounded rounded-t sm:rounded sm:rounded-l text-center overflow-hidden" style="background-image: url('https://unsplash.it/804/800')">
+      </div>
+      
+      <!-- card-content -->
+       <div class="px-6 py-4">
+        <h2 class="mb-2 font-black">Hello Tailwind!</h2>
+        <p class="mb-4 text-grey-dark text-sm">
+          Learning Tailwind is incredibly easy. The team has done a wonderful job with the documentation. This is pretty amazing, I must say.
+         </p>
+        
+         <!-- button -->
+        <button class="py-3 px-6 bg-purple-900 hover:bg-purple-700 transition text-white font-bold rounded mt-1 mb-2">
+          Hey, click me.
+         </button>
+         
+      </div>
+  
+    </div>
+    
+  </section>
+
+  <div class="flex flex-row p-40">
+    <div class="basis-1/2 aligns">01</div>
+    <div class="basis-1/2 aligns">02</div>
+  </div>
+
 
 </body>
+
 </html>
