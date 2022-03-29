@@ -11,50 +11,61 @@
 </head>
 
 <body>
+    <div class="bg-black w-full h-40 md:h-20 relative ">
+        
+        <div class="flex flex-col justify-center md:flex-row md:justify-between ">
+            <div class="flex text-center justify-center md:justify-between md:place-items-center">
+                <h1 class="my-3.5 md:absolute m-2 p-2 text-yellow-300 font-bold text-3xl ">Johansa</h1>
+            </div>
 
-    <h1>Belajar Tailwindcss</h1>
-
-    <section>
-        <h2>Spacing</h2>
-        <div class="m-5 text-center">Margin</div>
-        <div class="p-5 text-center">Padding</div>
-    </section>
-
-    <div class="container mx-auto mt-12">
-
-        <h1 class="text-blue-700 font-bold "> Hello Tailwindcss</h1>
-        <button class="bg-blue-500 hover:bg-blue-700 transition duration-100 text-white py-2 px-8 rounded">Click
-            Here!</button>
+            <ul class="flex justify-center md:justify-between">
+                <li> <button class="jo-menu"><p class="jo-menu-hover">About</p></button> </li>
+                <li> <button class="jo-menu"><p class="jo-menu-hover">Blog</p></button> </li>
+                <li> <button class="jo-menu"><p class="jo-menu-hover">Portfolio</p></button> </li>
+                <li> <button class="jo-menu"><p class="jo-menu-hover">Contact</p></button> </li>
+                <li> <button class="jo-menu"><p class="jo-menu-hover">Others</p></button> </li>
+            </ul>
+        </div>
 
     </div>
 
-
-    
-    <div class="p-20">
-        <div class="group inline-block relative ">
-            <button class="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
-                <span class="mr-1">Dropdown</span>
-                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                </svg>
-            </button>
-            <ul class="absolute hidden text-gray-700 pt-1 group-hover:block">
-                <li class="">
-                    <a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
-                        href="#">One</a>
-                </li>
-                <li class="">
-                    <a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a>
-                </li>
-                <li class="">
-                    <a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three
-                        is the magic number</a>
-                </li>
-            </ul>
+    <div>
+        <div class="w-full h-96 relative">
+            <img class=" w-full h-full object-cover absolute" src="https://picsum.photos/900/600" alt="">
+            <div class="bg-black/50 w-full h-96 relative flex justify-center place-items-center">
+                <div class="p-12 relative">
+                    <h1 class="font-black text-white text-4xl">Lorem ipsum dolor sit amet,</h1>
+                    <h2 class="mt-5 text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi, optio aspernatur eius distinction</h2>
+                </div>
+            </div>
         </div>
     </div>
 
 
+<h2 class="text-center font-black text-5xl mt-20"> Flex Row</h2>
+
+
+  <div class="mx-10 my-5 flex flex-col sm:flex-row ">
+    <div class="basis-1/3 p-4">
+        <h1 class=" font-black text-2xl text-center mb-4">Lorem ipsum?</h1>
+        <p class=" text-center text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deleniti magni reprehenderit fuga, cum mollitia laudantium quidem voluptatem. Doloribus autem hic praesentium facere ab dicta facilis deserunt quaerat sequi unde.</p>
+    </div>
+    <div class="basis-1/3 p-4">
+        <h1 class=" font-black text-2xl text-center mb-4">Lorem, ipsum</h1>
+        <p class=" text-center text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nisi magni, nesciunt libero perspiciatis cum cupiditate at! Inventore praesentium quidem distinctio beatae laborum, voluptatum non nulla, facere excepturi quae placeat!</p>
+    </div>
+    <div class="basis-1/3 p-4">
+        <h1 class=" font-black text-2xl text-center mb-4">Lorem ipsum</h1>
+        <p class=" text-center text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quas consequuntur culpa obcaecati, assumenda quos quia sapiente error ad perferendis provident suscipit officia totam dolore nihil odio maxime fugiat odit.</p>
+    </div>
+  </div>
+
+
+
+
+<div class="my-20">
+
+    
 <!-- wrapper -->
 <section class="m-2 font-sans leading-normal flex justify-center">
 
@@ -80,58 +91,7 @@
     </div>
     
   </section>
-
-
-<h2 class="text-center font-black text-5xl mt-20"> Flex Row</h2>
-
-
-  <div class="mx-10 my-5 flex flex-col sm:flex-row ">
-    <div class="basis-1/3 p-4">
-        <h1 class=" font-black text-2xl text-center mb-4">Lorem ipsum?</h1>
-        <p class=" text-center text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deleniti magni reprehenderit fuga, cum mollitia laudantium quidem voluptatem. Doloribus autem hic praesentium facere ab dicta facilis deserunt quaerat sequi unde.</p>
-    </div>
-    <div class="basis-1/3 p-4">
-        <h1 class=" font-black text-2xl text-center mb-4">Lorem, ipsum</h1>
-        <p class=" text-center text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nisi magni, nesciunt libero perspiciatis cum cupiditate at! Inventore praesentium quidem distinctio beatae laborum, voluptatum non nulla, facere excepturi quae placeat!</p>
-    </div>
-    <div class="basis-1/3 p-4">
-        <h1 class=" font-black text-2xl text-center mb-4">Lorem ipsum</h1>
-        <p class=" text-center text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quas consequuntur culpa obcaecati, assumenda quos quia sapiente error ad perferendis provident suscipit officia totam dolore nihil odio maxime fugiat odit.</p>
-    </div>
-  </div>
-
-<div>
-    <div class="w-full h-96 relative">
-        <img class=" w-full h-full object-cover absolute" src="https://picsum.photos/900/600" alt="">
-        <div class="bg-black/50 w-full h-96 relative flex justify-center place-items-center">
-            <div class="p-12 relative">
-                <h1 class="font-black text-white text-4xl">Lorem ipsum dolor sit amet,</h1>
-                <h2 class="mt-5 text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi, optio aspernatur eius distinction</h2>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="my-20">
-
-    <div class="bg-black w-full h-40 md:h-20 relative">
-        
-        <div class="flex flex-col justify-center md:flex-row md:justify-between ">
-            <div class="flex text-center justify-center md:justify-between md:place-items-center">
-                <h1 class="my-3.5 md:absolute m-2 p-2 text-yellow-300 font-bold text-3xl ">Johansa</h1>
-            </div>
-
-            <ul class="flex justify-center md:justify-between">
-                <li> <button class="jo-menu"><p class="jo-menu-hover">About</p></button> </li>
-                <li> <button class="jo-menu"><p class="jo-menu-hover">Blog</p></button> </li>
-                <li> <button class="jo-menu"><p class="jo-menu-hover">Portfolio</p></button> </li>
-                <li> <button class="jo-menu"><p class="jo-menu-hover">Contact</p></button> </li>
-                <li> <button class="jo-menu"><p class="jo-menu-hover">Others</p></button> </li>
-            </ul>
-        </div>
-
-    </div>
+    
 </div>
 
 </body>
