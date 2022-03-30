@@ -799,6 +799,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0px;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -816,6 +824,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .font-sans {
@@ -1005,6 +1017,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: space-between;
   }
 
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1012,5 +1028,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
